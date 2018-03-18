@@ -1,30 +1,30 @@
 #include <iostream>
 using namespace std;
-class arya
+class dad
 {
 	public:
-	arya()
+	dad()
 	{
-		cout<<"This is arya"<<endl;
+		cout<<"This is dad"<<endl;
 	}
 };
-class arya1
+class mom
 {
 	public:
-	arya1()
+	mom()
 	{
-		cout<<"this is arya1"<<endl;
+		cout<<"this is mom"<<endl;
 	}
 };
-class arya2:public arya,arya1
+class child:public dad,mom
 {
 	public:
-	arya2()
+	child()
 	{
-			cout<<"this is arya2"<<endl;
+			cout<<"this is child"<<endl;
 	}
 };
 int main() {
-	arya2 obj;
+	child obj;
 	return 0;
 }
