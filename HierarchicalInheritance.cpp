@@ -1,31 +1,32 @@
 #include <iostream>
 using namespace std;
-class arya
+class dad
 {
 	public:
-	arya()
+	dad()
 	{
-		cout<<"This is arya"<<endl;
+		cout<<"This is dad"<<endl;
 	}
 };
-class arya1:public arya
+class child1:public dad
 {
 	public:
-	arya1()
+	child1()
 	{
-		cout<<"this is arya1"<<endl;
+		cout<<"this is child1"<<endl;
 	}
 };
-class arya2:public arya
+class child2:public dad
 {
 	public:
-	arya2()
+	child2()
 	{
-			cout<<"this is arya2"<<endl;
+			cout<<"this is child2"<<endl;
 	}
 };
 int main() {
-	arya1 ob;
-	arya2 obj;
+	child1 ob;
+	child2 obj;
 	return 0;
 }
+
